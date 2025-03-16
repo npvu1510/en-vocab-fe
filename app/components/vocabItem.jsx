@@ -20,6 +20,7 @@ const VocabItem = ({
 
   return (
     <li
+      key={id}
       data-collection-ids={id}
       className={`vocab-item flex ${
         gridView ? 'w-50 flex-col' : 'w-full flex-row'

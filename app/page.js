@@ -19,7 +19,7 @@ async function fetchCategories() {
 async function fetchVocabularies() {
   try {
     const res = await fetch(
-      `${API_BASE_URL}/dictionaries-with-category-id?limit=99999`
+      `${API_BASE_URL}/dictionaries?limit=99999`
       // {
       //   cache: 'no-store',
       // }
